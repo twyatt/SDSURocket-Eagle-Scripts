@@ -1,0 +1,84 @@
+# http://web.mit.edu/xavid/arch/i386_rhel4/help/24.htm
+
+assign C+BS 'delete';
+assign C+I 'info';
+assign C+G 'group';
+assign CA+G 'move';
+assign C+M 'move';
+assign CA+M 'group';
+assign C+C 'copy';
+assign C+V 'paste';
+assign C+X 'smash';
+assign C+T 'text';
+assign CA+N 'name';
+assign CA+V 'value';
+assign CA+I 'grid inch 0.05 on; grid alt inch 0.005;';
+assign CA+M 'grid mm 1 on; grid alt mm 0.1;';
+
+grid inch 0.05 on;
+grid alt inch 0.005;
+
+BRD:
+
+assign C+R 'ratsnest';
+assign C+E 'route';
+assign CA+E 'ripup';
+assign C+U 'ripup';
+assign C+W show;
+
+grid inch 0.05 on;
+grid alt inch 0.005;
+
+set wire_bend 1; # route with 45 degree angles
+set drill 0.02; # set vias to 20mil
+change shape round; # make vias round
+change width 0.01; # set routing width to 10mil
+change font vector;
+
+# layer colors
+set palette 16 0xFFFFFFFF; # white
+set palette 24 0xFFC0C0C0; # grey - color used when text is selected (anti palette location 16)
+set color_layer tPlace 16; # white
+set color_layer bPlace 14; # yellow
+set color_layer tDocu 6; # mellow yellow
+
+display all -tStop -bStop -tCream -bCream -tFinish -bFinish -tGlue -bGlue;
+
+# show all layers
+assign C+0 'display all -tStop -bStop -tCream -bCream -tFinish -bFinish -tGlue -bGlue';
+assign CA+0 'display all';
+
+# show all top layers
+assign C+1 'display none Top Pads Vias Unrouted Dimension tPlace tOrigins tNames tValues tStop tCream tFinish tGlue tTest tKeepout tRestrict tDocu tPlate';
+
+# show all bottom layers
+assign C+2 'display none Bottom Pads Vias Unrouted Dimension bPlace bOrigins bNames bValues bStop bCream bFinish bGlue bTest bKeepout bRestrict bDocu bPlate';
+
+SCH:
+
+assign C+B 'bus';
+assign C+E 'net';
+assign C+L 'label';
+grid default on dots;
+change width 0.008;
+change size 0.07;
+
+LBR:
+
+grid mm 1 on;
+grid alt mm 0.1;
+
+DEV:
+
+grid default;
+
+SYM:
+
+grid default on;
+change width 0.010;
+
+PAC:
+
+grid default on;
+change width 0.005;
+change size 0.05;
