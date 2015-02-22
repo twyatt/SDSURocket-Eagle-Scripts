@@ -5,7 +5,6 @@ assign C+I 'info';
 assign C+G 'group';
 assign CA+G 'move';
 assign C+M 'move';
-assign CA+M 'group';
 assign C+C 'copy';
 assign C+V 'paste';
 assign C+X 'smash';
