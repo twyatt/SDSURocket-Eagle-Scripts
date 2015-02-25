@@ -50,8 +50,14 @@ assign CA+0 'display all';
 # show all top layers
 assign C+1 'display none Top Pads Vias Unrouted Dimension tPlace tOrigins tNames tValues tStop tCream tFinish tGlue tTest tKeepout tRestrict tDocu tPlate';
 
+# show only top silkscreen
+assign CA+1 'display none tNames tPlace';
+
 # show all bottom layers
 assign C+2 'display none Bottom Pads Vias Unrouted Dimension bPlace bOrigins bNames bValues bStop bCream bFinish bGlue bTest bKeepout bRestrict bDocu bPlate';
+
+# show only bottom silkscreen
+assign CA+2 'display none bNames bPlace';
 
 SCH:
 

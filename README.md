@@ -27,7 +27,9 @@ Ctrl+W               | Show
 Ctrl+0               | Display All (Except Stop, Cream, Finish and Glue) Layers
 Ctrl+Alt+0           | Display All Layers
 Ctrl+1               | Display Top Layers
+Ctrl+Alt+1           | Display Top Silkscreen Layers
 Ctrl+2               | Display Bottom Layers
+Ctrl+Alt+2           | Display Bottom Silkscreen Layers
 
 ### Schematic View
 
