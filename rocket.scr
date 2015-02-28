@@ -1,5 +1,6 @@
 # http://web.mit.edu/xavid/arch/i386_rhel4/help/24.htm
 
+assign C+D 'delete';
 assign C+BS 'delete';
 assign C+I 'info';
 assign C+G 'group';

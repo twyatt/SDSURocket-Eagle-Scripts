@@ -1,20 +1,20 @@
 ## Hotkeys
 ### Global
 
-Hotkey               | Action
----------------------|--------
-Ctrl+Backspace       | Delete
-Ctrl+I               | Info
-Ctrl+G               | Group / Selection Box
-Ctrl+M or Ctrl+Alt+G | Move
-Ctrl+C               | Copy
-Ctrl+V               | Paste
-Ctrl+X               | Smash
-Ctrl+T               | Text
-Ctrl+Alt+N           | Name
-Ctrl+Alt+V           | Value
-Ctrl+Alt+I           | Set grid to 0.05 inches (0.005 inches alt)
-Ctrl+Alt+M           | Set grid to 1 mm (0.1 mm alt)
+Hotkey                   | Action
+-------------------------|--------
+Ctrl+D or Ctrl+Backspace | Delete
+Ctrl+I                   | Info
+Ctrl+G                   | Group / Selection Box
+Ctrl+M or Ctrl+Alt+G     | Move
+Ctrl+C                   | Copy
+Ctrl+V                   | Paste
+Ctrl+X                   | Smash
+Ctrl+T                   | Text
+Ctrl+Alt+N               | Name
+Ctrl+Alt+V               | Value
+Ctrl+Alt+I               | Set grid to 0.05 inches (0.005 inches alt)
+Ctrl+Alt+M               | Set grid to 1 mm (0.1 mm alt)
 
 ### Board View
 
@@ -33,8 +33,8 @@ Ctrl+Alt+2           | Display Bottom Silkscreen Layers
 
 ### Schematic View
 
-Hotkey               | Action
----------------------|--------
-Ctrl+B               | Draw Bus
-Ctrl+E               | Draw Net
-Ctrl+L               | Label
+Hotkey | Action
+-------|--------
+Ctrl+B | Draw Bus
+Ctrl+E | Draw Net
+Ctrl+L | Label
